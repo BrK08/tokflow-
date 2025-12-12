@@ -1,0 +1,7 @@
+{
+  "name": "TokFlow - Video Downloader & Analyzer",
+  "description": "A modern tool to download social media videos and analyze them for TikTok viral potential using Gemini AI.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
