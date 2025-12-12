@@ -1,17 +1,35 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
-
 # TokFlow Video Downloader & Analyzer
 
-This contains everything you need to run your app locally.
+A web application to download and analyze video content.
 
-## Run Locally
+## How to Run
 
-**Prerequisites:**  Node.js
+**Prerequisites:**
+*   Node.js
+*   npm (or a similar package manager)
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in a `.env` file to your Gemini API key.
-3. Run the app:
-   `npm run dev`
+**Instructions:**
+
+1.  **Clone the repository:**
+    ```bash
+    git clone https://github.com/BrK08/tokflow-.git
+    cd tokflow---video-downloader-analyzer
+    ```
+
+2.  **Install dependencies:**
+    ```bash
+    npm install
+    ```
+
+3.  **Set up your environment:**
+    Create a `.env` file in the root of the project and add your Gemini API key:
+    ```
+    GEMINI_API_KEY=YOUR_API_KEY_HERE
+    ```
+
+4.  **Run the development server:**
+    ```bash
+    npm run dev
+    ```
+
+The application should now be running on your local machine.
